@@ -1,0 +1,44 @@
+{
+    "Warsaw": {
+        "Krakow": 254.58,
+        "Gdansk": 287.42,
+        "Poznan": 282.76,
+        "Wroclaw": 306.06,
+        "Lodz": 122.31
+    },
+    "Krakow": {
+        "Warsaw": 254.58,
+        "Gdansk": 494.39,
+        "Poznan": 338.77,
+        "Wroclaw": 240.91,
+        "Lodz": 195.27
+    },
+    "Gdansk": {
+        "Warsaw": 287.42,
+        "Krakow": 494.39,
+        "Poznan": 256.77,
+        "Wroclaw": 388.15,
+        "Lodz": 299.3
+    },
+    "Poznan": {
+        "Warsaw": 282.76,
+        "Krakow": 338.77,
+        "Gdansk": 256.77,
+        "Wroclaw": 144.72,
+        "Lodz": 187.02
+    },
+    "Wroclaw": {
+        "Warsaw": 306.06,
+        "Krakow": 240.91,
+        "Gdansk": 388.15,
+        "Poznan": 144.72,
+        "Lodz": 183.85
+    },
+    "Lodz": {
+        "Warsaw": 122.31,
+        "Krakow": 195.27,
+        "Gdansk": 299.3,
+        "Poznan": 187.02,
+        "Wroclaw": 183.85
+    }
+}
