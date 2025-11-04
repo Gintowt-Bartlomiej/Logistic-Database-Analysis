@@ -53,6 +53,7 @@ CREATE TABLE IF NOT EXISTS costs (
     fuel_cost REAL,
     toll_cost REAL,
     maintenance_cost REAL,
+    admin_fee REAL,
     FOREIGN KEY (shipment_id) REFERENCES shipments(shipment_id)
 );
 """)
