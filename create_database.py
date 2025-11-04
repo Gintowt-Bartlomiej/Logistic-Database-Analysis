@@ -1,6 +1,5 @@
 import sqlite3
 
-# Połączenie z bazą (utworzy plik logistics.db jeśli nie istnieje)
 conn = sqlite3.connect("logistics.db")
 cursor = conn.cursor()
 
