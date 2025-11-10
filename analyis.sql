@@ -24,3 +24,21 @@ FROM drivers d
 LEFT JOIN shipments s ON d.driver_id = s.driver_id
 GROUP BY d.name
 ORDER BY total_shipments DESC;
+
+
+SELECT 
+    v.type,
+    r.origin,
+    r.destination
+FROM vehicles v
+INNER JOIN shipments s ON v.vehicle_id = s.vehicle_id
+INNER JOIN routes r ON s.route_id = r.route_id
+LIMIT 5;
+
+SELECT 
+    d.name,
+    s.date,
+    s.status
+FROM drivers d
+INNER JOIN shipments s ON d.driver_id = s.driver_id
+LIMIT 5;
